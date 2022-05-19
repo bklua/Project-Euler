@@ -1,0 +1,9 @@
+
+
+sum_of_multiples = 0
+
+for n in range(3,1000):
+    if n % 3 == 0 or n % 5 == 0:
+        sum_of_multiples += n
+
+print(sum_of_multiples)
